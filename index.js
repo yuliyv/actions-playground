@@ -3,7 +3,7 @@
 module.exports = {
   getUserById: (id) => {
     return {
-      id
+      id: id + 1
     }
   }
 }
